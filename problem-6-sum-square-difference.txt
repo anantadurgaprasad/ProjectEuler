@@ -1,0 +1,11 @@
+function sumSquareDifference(n) {
+
+  let sum_of_n_numberSquared = (n*(n+1)/2)**2
+  let sum_of_squaresof_n_numbers = n*(n+1)*(2*n+1)/6
+
+  return sum_of_n_numberSquared -sum_of_squaresof_n_numbers; //replace return by console.log and run in console.
+
+
+}
+
+sumSquareDifference(100);
